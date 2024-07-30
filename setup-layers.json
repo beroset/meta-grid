@@ -1,0 +1,32 @@
+{
+    "sources": {
+        "meta-grid": {
+            "contains_this_file": true,
+            "git-remote": {
+                "branch": "main",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "git@github.com:beroset/meta-grid.git"
+                    }
+                },
+                "rev": "cde9f2d637640243422ef228b0dd1f8890bba47a"
+            },
+            "path": "meta-grid"
+        },
+        "poky": {
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "yocto-5.0.2-66-ga725df1839",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/poky"
+                    }
+                },
+                "rev": "a725df1839a23b11ae1bace531d242bfc1ab98e0"
+            },
+            "path": "poky"
+        }
+    },
+    "version": "1.0"
+}
