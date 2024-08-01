@@ -13,19 +13,6 @@
             },
             "path": "meta-arm"
         },
-        "meta-ti": {
-            "git-remote": {
-                "branch": "HEAD",
-                "describe": "",
-                "remotes": {
-                    "origin": {
-                        "uri": "https://git.yoctoproject.org/meta-ti"
-                    }
-                },
-                "rev": "249e45eaaa3c51e072fe64e3176e5d7e4384f652"
-            },
-            "path": "meta-ti"
-        },
         "meta-grid": {
             "contains_this_file": true,
             "git-remote": {
@@ -39,6 +26,19 @@
                 "rev": "main"
             },
             "path": "meta-grid"
+        },
+        "meta-ti": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "cicd.scarthgap.202408010400",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://git.yoctoproject.org/meta-ti"
+                    }
+                },
+                "rev": "5250a7d136c55d2ae27dbe1ae683e8dc49b44d1f"
+            },
+            "path": "meta-ti"
         },
         "poky": {
             "git-remote": {
