@@ -1,5 +1,31 @@
 {
     "sources": {
+        "meta-arm": {
+            "git-remote": {
+                "branch": "scarthgap",
+                "describe": "CORSTONE1000-2024.06-3-g58268ddc",
+                "remotes": {
+                    "origin": {
+                        "uri": "git://git.yoctoproject.org/meta-arm"
+                    }
+                },
+                "rev": "58268ddccbe2780de28513273e15193ee949987b"
+            },
+            "path": "meta-arm"
+        },
+        "meta-ti": {
+            "git-remote": {
+                "branch": "HEAD",
+                "describe": "",
+                "remotes": {
+                    "origin": {
+                        "uri": "https://git.yoctoproject.org/meta-ti"
+                    }
+                },
+                "rev": "249e45eaaa3c51e072fe64e3176e5d7e4384f652"
+            },
+            "path": "meta-ti"
+        },
         "meta-grid": {
             "contains_this_file": true,
             "git-remote": {
