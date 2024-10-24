@@ -13,6 +13,9 @@ DEPENDS = "openssl"
 
 inherit cmake
 
+FILES:${PN}-dev = "${includedir} ${libdir}/cmake"
+FILES:${PN} += "${libdir}/libopendnp3.so"
+
 EXTRA_OECMAKE = "-DDNP3_TLS=ON -DDNP3_EXAMPLES=ON -DFETCHCONTENT_FULLY_DISCONNECTED=OFF"
 
 do_configure[network]="1"
