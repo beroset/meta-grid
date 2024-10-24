@@ -1,7 +1,5 @@
-LICENSE = "Apache-2.0 & Unknown"
-LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57 \
-                    file://config/APACHE_LICENSE_HEADER;md5=92f5a0e776a967c833e8aa40432aa149 \
-                    file://config/gecapache.licenseheader;md5=e45a3863869dc38f98336e2c071357e4"
+LICENSE = "Apache-2.0"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=3b83ef96387f14655fc854ddc3c6bd57"
 
 SRC_URI = "git://github.com/dnp3/opendnp3.git;protocol=https;branch=release"
 
